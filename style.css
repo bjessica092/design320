@@ -1,0 +1,37 @@
+style.css
+body {
+	margin: 0;
+}
+
+.big-oval {
+	width: 200px;
+	height: 100px;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	display: block;
+	background: blue;
+	transform: rotate(-90deg);
+	position: absolute;
+	bottom: 80%;
+}
+.med-oval {
+	width: 75px;
+	height: 75px;
+	border-radius: 37.5px;
+	background: lightgreen;
+	position: absolute;
+	transform: rotate(-90deg);
+	left: 4.3%;
+	top: 10%;
+}
+.small-oval {
+	width: 50px;
+	height: 25px;
+	border-radius: 25px / 12.5px;
+	background: radial-gradient(green, lightgreen);
+	position: absolute;
+	transform: rotate(-90deg);
+	left: 5%;
+	top: 12%;
+}
